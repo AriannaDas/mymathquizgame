@@ -8,12 +8,12 @@
         <link rel = "stylesheet" type = "text/css" href = "game.css">
     </head>
     <body>
-        <h4 id = "player_1"> null : <h4> <span id = "player1_score">0</span>
+        <h4 id = "player1"> null : <h4> <span id = "player1_score">0</span>
             <br>
-        <h4 id = "player_2"> null : <h4> <span id = "player2_score">0</span>
+        <h4 id = "player2"> null : <h4> <span id = "player2_score">0</span>
         <div class = "container">
             <center>
-                <h2 style = "color: white;"> The Math Quiz Game! </h2>
+                <h2 style = "color: red;"> The Math Quiz Game! </h2>
                 <h3 id = "player_question">Question Turn - null</h3>
                 <h3 id = "player_answer">Answer Turn - null</h3>
                 <div id = "output"></div>
@@ -25,10 +25,10 @@
                 <h4>Number 2</h4>
                 <input type="text" id="number2" class="form-control" placeholder="Number 2">
                 <br>
-                <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+                <button onclick = "send()" class = "btn btn-success" style = "width: 30%;"> Send </button>
             </center>
         </div>
 
-        <script scr = "quiz_game_login.js"></script>
+        <script scr = "quiz_game_page.js"></script>
     </body>
 </html>
